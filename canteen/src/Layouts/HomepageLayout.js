@@ -1,7 +1,13 @@
+import { HomepageHeader } from "../Components/Header"
+import { UtensilButton, FoodItemButton, UtilityButton } from "../Components/PageButtons"
+
 export const HomePageLayout = () =>{
     return(
         <div>
-            hello world!!
+            <HomepageHeader />
+            <UtensilButton />
+            <FoodItemButton />
+            <UtilityButton/>
         </div>
     )
 }

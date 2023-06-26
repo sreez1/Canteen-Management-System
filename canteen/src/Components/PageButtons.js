@@ -1,7 +1,9 @@
+import {Link } from "react-router-dom"
+
 export const UtensilButton =()=>{
     return(
         <div>
-            <button>Utensils</button>
+            <Link to="/utensil"><button>Utensils</button></Link>
         </div>
     )
 }
@@ -9,15 +11,15 @@ export const UtensilButton =()=>{
 export const FoodItemButton =()=>{
     return(
         <div>
-            <button>Food Items</button>
+            <Link to="/fooditem"><button>Food Items</button></Link>
         </div>
     )
 }
 
-export const Utility =()=>{
+export const UtilityButton =()=>{
     return(
         <div>
-            <button>Utility</button>
+            <Link to="/utility"><button>Utility</button></Link>
         </div>
     )
 }

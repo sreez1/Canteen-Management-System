@@ -38,7 +38,7 @@ export const FoodItemsHeader = () =>{
     )
 }
 
-export const Utility = () =>{
+export const UtilityHeader = () =>{
     return(
         <div>
             <h2 className="">
