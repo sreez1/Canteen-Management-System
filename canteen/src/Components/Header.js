@@ -37,3 +37,13 @@ export const FoodItemsHeader = () =>{
         </div>
     )
 }
+
+export const Utility = () =>{
+    return(
+        <div>
+            <h2 className="">
+                Food Items
+            </h2>
+        </div>
+    )
+}
