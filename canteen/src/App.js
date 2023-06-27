@@ -9,12 +9,11 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" exact element={<LoginLayout />} />
-        <Route path="/home" exact element={<HomePageLayout />} >
-          <Route path="/home/utensil" exact element={<UtensilsLayout />} />
-          <Route path="/home/utility" exact element={<UtilityLayout />} />
-          <Route path="/home/fooditem" exact element={<FoodItemsLayout />} />
-        </Route>
-        <Route path="*/" element={<h1>Page not found</h1>} />
+        <Route path="/home" exact element={<HomePageLayout />} />
+        <Route path="/utensil" exact element={<UtensilsLayout />} />
+        <Route path="/utility" exact element={<UtilityLayout />} />
+        <Route path="/fooditem" exact element={<FoodItemsLayout />} />
+        <Route path="*" element={<h1>404 Page not found</h1>} />
       </Routes>
     </BrowserRouter>
   )

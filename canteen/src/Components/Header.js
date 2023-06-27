@@ -42,7 +42,7 @@ export const UtilityHeader = () =>{
     return(
         <div>
             <h2 className="">
-                Food Items
+                Utility
             </h2>
         </div>
     )
